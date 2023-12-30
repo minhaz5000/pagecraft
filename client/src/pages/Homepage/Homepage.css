@@ -1,0 +1,4 @@
+.containerhome {
+    display: grid;
+    grid-template-columns: 3fr 10.2fr;
+}

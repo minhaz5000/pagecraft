@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.parent-logo {
+    display: flex;
+    margin-top: 3px;
+    margin-left: 20px;
+    position: fixed;
+    
+}
+
+.child1 {
+    font-size: 40px;
+    margin-left: 30px;
+    color: #0d74F5;
+
+}
+
+.child2 {
+    margin-top: 3px;
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: black;
+}

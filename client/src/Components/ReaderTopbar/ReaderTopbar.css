@@ -1,0 +1,10 @@
+.usertopbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px;
+    margin-top: 10px;
+}
+.backicon {
+    font-size: 40px;
+    margin-left: 40px;
+}

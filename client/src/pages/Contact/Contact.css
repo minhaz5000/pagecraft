@@ -1,0 +1,77 @@
+.Hero-text {
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0,0.5), rgba(0,0,0,0.5)), url(bookimage.png);
+    height: 700px;
+
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+}
+.Hero-text > h1 {
+    padding-top: 320px;
+    font-size: 48px;
+}
+.Hero-text > p {
+    font-size: 28px;
+    padding: 0px 300px;
+}
+.subsection {
+    margin-top: 80px;
+    text-align: center;
+}
+.subsection {
+    padding: 0px 300px;
+}
+.subsection >h2 {
+    font-size: 32px;
+}
+
+.subsection >p {
+    font-size: 22px;
+}
+.query-category {
+
+    padding: 0px 300px;
+    margin-top: 40px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.query-subsection {
+    padding: 0px 40px;
+
+}
+.query-subsection > h3 {
+    font-size: 20px;
+}
+.query-subsection > p {
+    font-size: 20px;
+    padding: 20px;
+}
+
+.query-subsection > button {
+    font-size: 18px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 43.5px;
+    width: 200px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    position: relative; 
+	bottom: -3.5px;
+    
+}
+
+.query-subsection > button:hover {
+    box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.06);
+    background-color: #0d74F5; /* Green */
+    color: white;
+}
+.contactpage {
+    margin-bottom: 40px;
+}

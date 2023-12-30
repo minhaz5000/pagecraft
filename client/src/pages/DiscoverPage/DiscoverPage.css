@@ -1,0 +1,52 @@
+.top-row {
+    margin-bottom: 0px;
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    top: 0%;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    opacity: 1;
+    z-index: 100;
+}
+.activelanding {
+    font-weight: bold;
+    /* text-decoration: underline; */
+}
+.col-logo {
+    top: 0%;
+    flex:1;
+    margin-top: -50px;
+    /* background-color: red; */
+}
+.top-row > .col-links {
+    /* background-color: blue; */
+    flex:6;
+    margin-top: 0px;
+    display: flex;
+    justify-content:right;
+    padding: 50px;
+    font-size: 20px;
+    align-items:flex-end;
+    gap: 40px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.top-row > .col-links > ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+.discover {
+    margin-top: 150px;
+    display: flex;
+    flex:1;
+    align-items: center;
+    flex-direction: column;
+    z-index: 5;
+}

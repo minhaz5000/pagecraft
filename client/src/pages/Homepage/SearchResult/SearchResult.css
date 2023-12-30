@@ -1,0 +1,33 @@
+.toprowsearch {
+    display: grid;
+    grid-template-columns: 2.7fr 7fr 1.8fr;
+    padding: 0px 30px;
+    align-items: center;
+    gap: 40px;
+    margin-top: 20px;
+}
+.searchbox-main {
+    width: 96%;
+    height: 40px;
+    border-radius: 20px;
+    padding: 0px 20px;
+    border: 1px solid #ccc;
+    outline-color: #ccc;
+    font-size: 20px;
+}
+
+.filters-main {
+    display: grid;
+    grid-template-columns: 3fr 7fr 2fr;
+    gap: 40px;
+    padding: 0px 30px;
+    
+}
+.hidden-filters-main {
+    margin: -10px 0px 0px -20px;
+}
+.result-of-search {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+}
